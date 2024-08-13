@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Cards</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            margin: 20px;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .card-text {
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="https://via.placeholder.com/100" alt="Avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">UX Designer</p>
+                        <p class="card-text">14 May</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="card-text">Lorem ipsum is dolore...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above block for more cards -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

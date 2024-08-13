@@ -1,0 +1,18 @@
+Sent by Copilot:
+React.js and React Native share a common foundation, but they serve different purposes:
+
+React.js (React):
+React.js is a JavaScript library for building user interfaces (UIs) on the web.
+It’s primarily used for creating web applications and websites.
+React components render UI elements in the browser using a virtual DOM (Document Object Model).
+Developers write React code in JavaScript (or TypeScript) and use JSX (JavaScript XML) to define UI components.
+React.js is not platform-specific; it runs in web browsers.
+React Native:
+React Native is a framework for building native mobile applications.
+It allows developers to create mobile apps for Android and iOS using a single codebase.
+React Native compiles JavaScript code into native app components.
+Developers write React Native code in JavaScript (or TypeScript) and use components specific to mobile platforms.
+React Native provides access to native APIs (such as camera, geolocation, and notifications) through JavaScript bridges.
+It aims to provide a native-like experience while sharing code across platforms.
+In summary, React.js is for web UIs, while React Native is for mobile app development. Both leverage React’s component-based architecture, but they target different environments. 
+command shift and P
